@@ -48,7 +48,7 @@ import { nanoid } from "nanoid";
 
 
 <div class="flex space-y-5 flex-col sm:p-0 p-3 min-h-screen items-center justify-center">
-	<div class="flex sm:flex-row items-center flex-col items-center outline-none focus:outline-none ease-linear transition-all duration-150">
+	<div class="flex outline-none focus:outline-none ease-linear transition-all duration-150 sm:flex-row items-center flex-col items-center outline-none focus:outline-none ease-linear transition-all duration-150">
 		<input type="text" name="" class="sm:w-80 w-72 mr-1 mb-1 px-3 py-2 cursor-pointer shadow-xl bg-white border-2 rounded text-black text-font" placeholder="Görev Ekle" id="s"  bind:value={title2}>
 		<button on:click={addTodo} class="w-20 mr-1 mb-1 px-4 py-2 bg-white rounded text-black ursor-pointer shadow-xl border-2 text-font" id="add"><i class="fa-solid fa-plus"></i></button>
 	    {#if todos.length > 0}
