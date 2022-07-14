@@ -14,6 +14,10 @@ import { nanoid } from "nanoid";
 	let title2 = "";
 
 	const addTodo = (title) => {
+		if(!title2) {
+			toast.push("Lütfen bir başlık giriniz.");
+			return;
+		}
 		todos = [ ...todos,
 			{ title: title2 , id: nanoid(), num: todos.length + 1, complete: false } ];
 	};
