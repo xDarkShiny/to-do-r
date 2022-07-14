@@ -13,6 +13,7 @@
 		"@playwright/test": "^1.22.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@zerodevx/svelte-toast": "^0.7.2",
 		"autoprefixer": "^10.4.7",
 		"postcss": "^8.4.14",
 		"svelte": "^3.46.0",
@@ -24,6 +25,8 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"@formkit/auto-animate": "^1.0.0-beta.1",
-		"cookie": "^0.4.1"
+		"cookie": "^0.4.1",
+		"nanoid": "^4.0.0",
+		"svelte-spinkit": "^1.0.3"
 	}
 }
